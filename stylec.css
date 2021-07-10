@@ -1,0 +1,78 @@
+body{
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+p, h3{
+	color: #000000;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+header {
+	height: 75px;
+	background-color: #3F4245;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	text-align: center;
+	line-height: 1.5em;
+	position: fixed;
+	width: 100%;
+}
+
+header nav{
+	text-align: center;
+	background-color: #2C6CA3;
+	padding: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+a{
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+#bimg{
+	height: 300px;
+	width: auto;
+	display: block;
+	margin: auto;
+	padding-top: 145px;
+	padding-bottom: 25px;
+}
+
+#contact h2{
+background-color: #2C6CA3;
+	height: 35px;
+	text-align: center;
+	padding-top: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+#contact p{
+	padding: 30px;
+	line-height: 1.75em;
+	font-weight: 1.2;
+	font-size: 1.1em;
+	
+}
+
+
+
+footer{
+	height: 35px;
+	background-color: #3F4245;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	line-height: 1em;
+	
+}
+footer nav{
+	padding-top: 20px;
+}
+
