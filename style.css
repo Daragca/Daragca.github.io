@@ -122,4 +122,11 @@ hr{
 	width: 65%;
 	color: #000000;
 }
-	
+
+@media screen and (max-width: 600px){
+	#banner{
+		width: 100%;
+		height: auto;
+		padding-top: 180px;
+	}
+}
