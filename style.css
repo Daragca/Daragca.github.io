@@ -1,17 +1,20 @@
 
 
 body{
-	background-color: #B0B3B5;
+	background-color: #CCCCCC;
 	color: #FFFFFF;
 	font-family: Arial, sans-serif;
 	margin: 0;
 }
 
-p{
+p, h3{
 	color: #000000;
 	text-align: center;
 }
 
+h1{
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+}
 header {
 	height: 75px;
 	background-color: #3F4245;
@@ -21,7 +24,6 @@ header {
 	line-height: 1.5em;
 	position: fixed;
 	width: 100%;
-	
 }
 
 header nav{
@@ -52,7 +54,12 @@ a{
 	border: 1px solid #FFFFFF;
 }
 
-
+#aboutme p{
+	padding: 40px;
+	line-height: 1.75em;
+	font-weight: 1.2;
+	font-size: 1.1em;
+}
 
 #images img{
 	height: 80px;
@@ -76,3 +83,43 @@ footer{
 footer nav{
 	padding-top: 20px;
 }
+
+#fotoimg {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#fotoimg img{
+	height: 200px;
+	width: auto;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+#projects p{
+	padding: 10px;
+	line-height: 1.75em;
+	font-weight: 1.2;
+	font-size: 1.1em;
+}
+
+#teaimg {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#teaimg img{
+	height: 200px;
+	width: auto;
+	margin-right: 20px;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+hr{
+	width: 65%;
+	color: #000000;
+}
+	
